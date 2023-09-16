@@ -1,161 +1,196 @@
 <!DOCTYPE html>
-<html>
-    <head><title>Sorrawit About me Site</title></head>
-    <body>
-        <hr>
-    <!-- Menu -->
-    <table style="width:100%; text-align: center">
-        <tr>
-            <td>
-                <h3><a href="index.html">Profile</a></h3>
-            </td>
-            
-            <td>
-                <h3><a href="about.html">About</a></h3>
-            </td>
-            <td>
-                <h3><a href="projects.html">Projects</a></h3>
-            </td>
-            <td>
-                <h3><a href="contact.html">Contact</a></h3>
-            </td>
-        </tr>
-    </table>  
-    <table>
-        <tr><th style="width: 33.33%; vertical-align:top;"></th>
-            <h1 style="text-align: center; font-family: cursive;">About me</h1>
-            <h2 style="text-align: center; font-family: cursive; font-weight:normal">
-                Personal Info</h2>  
-            </tr>
-    </table>
-    <table style="margin-left: auto; margin-right: auto" cellspacing="30"> <!--- border="1">-->
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>Name:</td>
-                        <td>Sorrawit Muenphet</td>
-                    </tr>
-                    <tr>
-                        <td>Age:</td>
-                        <td>19</td>
-                    </tr>
-                    <tr>
-                        <td>email:</td>
-                        <td>sorrawit774@gmail.com</td>
-                    </tr>      
-                    <tr>
-                        <td>Addrees:</td>
-                        <td>sokhothai.Thailand</td>
-                    </tr>    
-                </table>               
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>Freelance:</td>
-                        <td>Study</td>
-                    </tr>
-                    <tr>
-                        <td>Skills:</td>
-                        <td>NONE</td>
-                    </tr>
-                    <tr>
-                        <td>Experiences:</td>
-                        <td>NONE</td>
-                    </tr>      
-                    <tr>
-                        <td>Lannguage:</td>
-                        <td>Thai</td>
-                    </tr>    
-                </table>   
-            </td>
-        </tr>
-        
-    </table>
-    <table>
-        <h2 style="text-align: center;">Skills</h2>
-        <table style="margin-left: auto; margin-right: auto" cellspacing="30"> <!--- border="1">-->
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>HTML</td>
-                            <!--Emoji Windows: WIN+. or WIN+; | MAC: ^+Command+space-->
-                            <td>⭐</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td>⭐</td>
-                        </tr>
-                        <tr>
-                            <td>cooking</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>      
-                        <tr>
-                            <td>Photography</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>    
-                    </table>               
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>football</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>sleep</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Music</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>      
-                        <tr>
-                            <td>Engineer skill </td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>    
-                    </table>   
-                </td>
-            </tr>
-        </table>
-    
-        
-    </body>
- 
-    <h1 style="text-align: center; font-family: cursive;">Experiences</h1> 
-    <!-- Reference: Aclonica Font -->
-    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'> 
-    <h4 style="text-align: center; font-family: Aclonica; font-weight:normal"><i>
-        "The Only Source of Knowledge is Experiences"</i></h4>
-        <h5 style="text-align: center; font-family: Aclonica; font-weight:normal">
-            --- Albert Einstein ---</h5> 
-    <table style="margin-left: auto; margin-right: auto">
-        <tbody>
-            <tr>
-              <td>
-                <h2>Study</h2>
-                <ul type="circle">
-                    <li>Sawananan wittaya</li>
-                    <li>Bangkok University</li>
-                    
-                </ul>
-                <h2>Certificate</h2>
-                <ul type="disc">
-                    <li>IBM Full Stack Software Developer Professional</li>
-                    <li>Google Data Analytics Professional</li>
-                    <li>DevOps on AWS Specialization</li>
-                    <li>SQL Advanced</li>
-                </ul>
-                <h2>Research Interests</h2>
-                <ol>
-                    <li>Big Data</li>
-                    <li>Data Visualization</li>
-                    <li>Artificial Intelligence and Data Science</li>
-                </ol>                
-              </td>
-            </tr>
-          </tbody>
-        </table>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Sorrawit Profile</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- navbar section starts  -->
+
+    <nav class="navbar">
+        <a href="index.html"> <i class="fas fa-user"></i> <span>profile</span> </a>
+        <a href="about.html" class="active"> <i class="fas fa-address-card"></i> <span>about</span> </a>
+        <a href="projects.html"> <i class="fas fa-briefcase"></i> <span>projects</span> </a>
+        <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
+    </nav>
+
+    <!-- navbar section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about">
+
+        <h1 class="heading"> about <span>me</span> </h1>
+
+        <div class="row">
+
+            <div class="info-container">
+
+                <h1>personal info</h1>
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <h3> <span>name : </span> Sorrawit Muenphet </h3>
+                        <h3> <span>age : </span> 19 </h3>
+                        <h3> <span>email : </span> sorrawit774@gmail.com </h3>
+                        <h3> <span>address : </span> Sukhothai Thailand 64120 </h3>
+                    </div>
+
+                    <div class="box">
+                        <h3> <span>freelance : </span> available </h3>
+                        <h3> <span>skill : </span> SOUND </h3>
+                        <h3> <span>experience : </span> NONE </h3>
+                        <h3> <span>language : </span> thai </h3>
+                    </div>
+
+                </div>
+
+                <a href="/profilewithcss/files/resume.pdf" class="btn"> download CV <i class="fas fa-download"></i> </a>
+
+            </div>
+
+            <div class="count-container">
+
+                <div class="box">
+                    <h3>5+</h3>
+                    <p>years of experience</p>
+                </div>
+
+                <div class="box">
+                    <h3>10+</h3>
+                    <p>happy clients</p>
+                </div>
+
+                <div class="box">
+                    <h3>20+</h3>
+                    <p>project completed</p>
+                </div>
+
+                <div class="box">
+                    <h3>5+</h3>
+                    <p>Certificates</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- skills section starts  -->
+
+    <section class="skills">
+
+        <h1 class="heading"> <span>my</span> skills </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/Premier_League_Logo.svg.png">
+                <h3>Football</h3>
+            </div>
+            <div class="box">
+                <img src="images/Apple-Logo.png">
+                <h3>Apple</h3>
+            </div>
+            <div class="box">
+                <img src="images/2560px-Valorant_logo_-_pink_color_version.svg.png">
+                <h3>VALORANT</h3>
+            </div>
+            <div class="box">
+                <img src="images/fc24-authenticity-logo.png.adapt.320w.png">
+                <h3>EAFC24</h3>
+            </div>
+            <div class="box">
+                <img src="images/setup_logic.jpg">
+                <h3>LOGIC PRO</h3>
+            </div>
+            <div class="box">
+                <img src="images/Final_Cut_Pro.jpg">
+                <h3>Final Cut Pro</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- skills section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education">
+
+        <h1 class="heading"> <span>my</span> experience </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <span>2016 - 2017</span>
+                <h3>INTER EXPRESS LOGISTICS PRIVATE LIMITED</h3>
+                <p>Assist the system analyst in conduct analysis, architecture, design database model for the new
+                    application.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <span>2017 - 2018</span>
+                <h3>PTT Digital Solutions Company Limited</h3>
+                <p>Front-end coding to develop web applications follows by mock-up screen design. And back-end coding
+                    and test to configuration workflows and business processes.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <span>2018 - 2018</span>
+                <h3>Thai Beverage PLC</h3>
+                <p>Develop new features to facilitate related procedures and tools if necessary, Troubleshoot, test, and
+                    maintain the core product software and databases to ensure strong optimization and functionality.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <span>2019 - 2020</span>
+                <h3>Cigna</h3>
+                <p>Assist the system analyst in conduct analysis, architecture, design database model for the new
+                    application.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <span>2019 - 2020</span>
+                <h3>EMETWORKS</h3>
+                <p>Develop new features to facilitate related procedures and tools if necessary.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-briefcase"></i>
+                <span>2020 - 2021</span>
+                <h3>uTech Solutions</h3>
+                <p>Assist the system analyst in conduct analysis, architecture, design database model for the new
+                    application.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- education section ends -->
+
+</body>
+
 </html>
